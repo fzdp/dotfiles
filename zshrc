@@ -58,7 +58,7 @@ export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/g
 
 source $ZSH/oh-my-zsh.sh
 # promptline
-source $HOME/.shell_prompt.sh
+#source $HOME/.shell_prompt.sh
 # remove empty whitespace on right prompt
 ZEL_RPROMPT_INDENT=0
 # You may need to manually set your language environment
@@ -91,4 +91,18 @@ ANT_HOME="/opt/apache-ant-1.9.6"
 SENCHA_HOME="$HOME/.sencha/Sencha/Cmd/5.1.3.61"
 export PATH="$HOME/.rbenv/bin:$PATH:$ANT_HOME/bin:$SENCHA_HOME"
 eval "$(rbenv init -)"
+
+# gnome-terminal-solarized
 eval `dircolors ~/.dir_colors/dircolors.ansi-light`
+
+# enable tmux in solarized colorscheme
+alias tmux="TERM=screen-256color-bce tmux"
+
+# enable ctrl-s in vim
+# stty -ixon
+
+# apply syntax highlighting to cheat
+# export CHEATCOLORS=true
+
+# for cheat(command cli refer)
+export EDITOR=`which vi`
