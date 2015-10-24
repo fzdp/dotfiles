@@ -2,7 +2,7 @@
 
 - link:
     ~/.tmux.conf: tmux.conf
-    #~/.vim: vim/
+    ~/.vim: vim/
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
     ~/bin: bin/
