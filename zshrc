@@ -105,11 +105,14 @@ alias tmux="TERM=screen-256color-bce tmux"
 # export CHEATCOLORS=true
 
 # for cheat(command cli refer)
-export EDITOR=`which vi`
+export EDITOR='vi'
 
 # add bin directory
 export PATH="$PATH:$HOME/.bin"
 
 # alias
 alias h=cheat
-alias t=todo.sh
+
+# todo.txt cli
+export TODOTXT_DEFAULT_ACTION=ls
+alias t='todo.sh -d ~/.bin/todo.cfg'
