@@ -108,7 +108,7 @@ alias tmux="TERM=screen-256color-bce tmux"
 export EDITOR=`which vi`
 
 # add bin directory
-export PATH="$PATH:$HOME/bin"
+export PATH="$PATH:$HOME/.bin"
 
 # alias
 alias h=cheat
