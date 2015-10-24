@@ -6,3 +6,4 @@
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
     ~/.bin: bin/
+    ~/.cheat: cheat/
