@@ -2,10 +2,7 @@
 
 - link:
     ~/.tmux.conf: tmux.conf
-    ~/.vim: vim/
+    #~/.vim: vim/
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
     ~/bin: bin/
-
-- shell:
-  - [git submodule update --init --recursive, Installing submodules]
