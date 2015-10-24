@@ -109,3 +109,7 @@ export EDITOR=`which vi`
 
 # add bin directory
 export PATH="$PATH:$HOME/bin"
+
+# alias
+alias h=cheat
+alias t=todo.sh
