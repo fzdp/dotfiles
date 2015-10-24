@@ -1,8 +1,0 @@
-# alias git push to gp
-alias gp='git push'
-
-# alias top to t
-alias t=top
-
-# to unalias t
-unalias t
