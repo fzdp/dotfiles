@@ -1,0 +1,14 @@
+# 启动或者停止apache
+/etc/init.d/apache2 or apache2ctl
+
+# 设置servername
+有两种方法，以设置localhost为例
+1. 在/etc/apache2/apache2.conf里面添加一行：ServerName localhost
+2. 在conf-available和conf-enabled之间软连接一下，创建/etc/apache2/conf-available/servername.conf并添加上面的内容，然后：
+ln -s /etc/apach2/conf-available/servername.conf /etc/apache2/conf-enabled/
+也可以不建立软链接，使用：a2enconf servername(同理有a2ensite等命令)
+最后:service apache2 reload
+
+# 多站点问题
+在/etc/apache2/sites-available下新建docs.conf,wiki.conf等，然后加载此配置（参见上面），但是请注意000-default.conf文件，这里给出的
+是服务器的默认位置，如localhost -> /var/www/html，那么localhost/docs -> /var/www/html/docs

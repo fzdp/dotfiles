@@ -1,0 +1,5 @@
+# 添加新用户
+root用户：useradd git; mkdir /home/git; chown git /home/git
+
+# 添加sudoers
+编辑/etc/sudoers文件，找到root ALL=(ALL:XX)..这一行，在下面添加类似的一行，把用户名添加进去即可

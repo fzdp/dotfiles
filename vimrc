@@ -68,13 +68,14 @@ let g:ctrlp_map = "<leader>f"
 set t_Co=256
 syntax on
 syntax enable
-set background=dark
+set background=light
 colorscheme solarized
-set hlsearch
+" set hlsearch
 set hidden
 set number
 set tabstop=2
 set shiftwidth=2
+set expandtab
 set autoindent
 set cindent shiftwidth=2
 set smartindent

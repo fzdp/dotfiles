@@ -1,0 +1,2 @@
+# 离线安装ruby
+ env RUBY_BUILD_MIRROR_URL=file:///home/fweaver/ruby-1.9.3-p545.tar.gz# rbenv install 1.9.3-p545

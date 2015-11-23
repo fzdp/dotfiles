@@ -1,0 +1,2 @@
+# 以henry的身份执行命令，并且改变HOME环境变量为该用户的HOME目录
+sudo -u henry -H
