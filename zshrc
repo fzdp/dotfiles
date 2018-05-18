@@ -116,3 +116,5 @@ alias h=cheat
 # todo.txt cli
 export TODOTXT_DEFAULT_ACTION=ls
 alias t='todo.sh -d ~/.bin/todo.cfg'
+
+alias vi=nvim
