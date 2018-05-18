@@ -1,0 +1,2 @@
+# specify version
+rails _5.1.4_ new app_name
