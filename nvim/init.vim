@@ -49,6 +49,7 @@ let g:ctrlp_map = "<leader>f"
 
 " general config
 set encoding=utf-8
+set termguicolors
 "set t_Co=256
 syntax on
 syntax enable

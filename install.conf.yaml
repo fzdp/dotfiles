@@ -15,3 +15,4 @@
     ~/.zshrc: zshrc
     ~/.bin: bin/
     ~/.cheat: cheat/
+    ~/.config/nvim: nvim/
