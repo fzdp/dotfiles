@@ -12,6 +12,10 @@ Plug 'Raimondi/delimitMate'
 Plug 'mattn/emmet-vim'
 Plug 'dracula/vim'
 
+Plug 'Shougo/deoplete.nvim'
+Plug 'roxma/nvim-yarp'
+Plug 'roxma/vim-hug-neovim-rpc'
+
 call plug#end()
 
 filetype plugin indent on
@@ -29,6 +33,9 @@ set t_Co=256
 syntax on
 syntax enable
 colorscheme PaperColor
+
+" deoplete config
+let g:deoplete#enable_at_startup = 1
 
 "set background=dark
 map <Leader>bg :let &background = ( &background == "dark"? "light" : "dark" )<CR>
