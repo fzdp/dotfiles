@@ -14,6 +14,5 @@
     ~/.vim: vim/
     ~/.vimrc: vimrc
     ~/.zshrc: zshrc
-    ~/.bin: bin/
     ~/.cheat: cheat/
     ~/.config/nvim: nvim/
