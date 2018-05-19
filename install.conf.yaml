@@ -16,3 +16,4 @@
     ~/.zshrc: zshrc
     ~/.cheat: cheat/
     ~/.config/nvim: nvim/
+    ~/.oh-my-zsh/custom: oh-my-zsh-custom/
