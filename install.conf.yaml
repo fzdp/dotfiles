@@ -16,3 +16,16 @@
     ~/.cheat: cheat/
     ~/.config/nvim: nvim/
     ~/.oh-my-zsh/custom: oh-my-zsh-custom/
+    ~/.iterm2-settings: iterm2-settings
+
+- shell:
+  -
+    command: defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/.iterm2-settings"
+    stdin: true
+    stdout: true
+    description: Specify the preferences directory
+  -
+    command: defaults write com.googlecode.iterm2.plist LoadPrefsFromCustomFolder -bool true
+    stdin: true
+    stdout: true
+    description: 'Tell iTerm2 to use the custom preferences in the directory'
