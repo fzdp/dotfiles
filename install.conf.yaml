@@ -18,6 +18,7 @@
     ~/.oh-my-zsh/custom: oh-my-zsh-custom/
     ~/.iterm2-settings: iterm2-settings
     ~/.nvm: nvm
+    ~/.tmux: tmux
 
 - shell:
   -
