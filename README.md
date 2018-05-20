@@ -12,3 +12,6 @@
 
 # iTerm2
 * if iTerm2 preferences doesn't work as expected, go to Preferences => General => preferences, and select dotfiles folder manually
+
+# tmux
+* tmux.conf inspired by https://github.com/samoshkin/tmux-config/blob/master/tmux/tmux.conf
