@@ -1,7 +1,7 @@
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 
-ZSH_THEME="materialshell"
+ZSH_THEME="spaceship"
 plugins=(git vi-mode title-tab catimg git-extras z extract)
 source $ZSH/oh-my-zsh.sh
 
