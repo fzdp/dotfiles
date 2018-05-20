@@ -12,6 +12,12 @@ export TERM="xterm-256color"
 unset LSCOLORS
 export CLICOLOR=1
 export CLICOLOR_FORCE=1
+
+# nvm
+export NVM_DIR=$(realpath "$HOME/.nvm")
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
 # alias
 alias h=cheat
 alias vi=nvim
