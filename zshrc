@@ -2,7 +2,7 @@
 export ZSH=~/.oh-my-zsh
 
 ZSH_THEME="spaceship"
-plugins=(git vi-mode title-tab catimg git-extras z extract)
+plugins=(git vi-mode title-tab catimg git-extras z extract zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 ZEL_RPROMPT_INDENT=0
