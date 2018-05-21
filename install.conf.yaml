@@ -19,6 +19,8 @@
     ~/.iterm2-settings: iterm2-settings
     ~/.nvm: nvm
     ~/.tmux: tmux
+    ~/.oh-my-zsh/custom/themes/spaceship.zsh-theme: oh-my-zsh-custom/themes/spaceship-prompt/spaceship.zsh-theme
+
 
 - shell:
   -
