@@ -79,7 +79,7 @@ inoremap <expr> <C-n> pumvisible() ? '<C-n>' : '<C-n><C-r>=pumvisible() ? "\<lt>
 inoremap <expr> <M-,> pumvisible() ? '<C-n>' : '<C-x><C-o><C-n><C-p><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'
 
 " deoplete
-let g:python3_host_prog="/usr/local/bin/python3.5"
+let g:python3_host_prog="/usr/local/bin/python3"
 let g:deoplete#enable_at_startup = 1
 
 " airline

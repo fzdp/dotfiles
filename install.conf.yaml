@@ -16,9 +16,9 @@
     ~/.cheat: cheat/
     ~/.config/nvim: nvim/
     ~/.oh-my-zsh/custom: oh-my-zsh-custom/
-    ~/.iterm2-settings: iterm2-settings
-    ~/.nvm: nvm
-    ~/.tmux: tmux
+    ~/.iterm2-settings: iterm2-settings/
+    ~/.nvm: nvm/
+    ~/.tmux: tmux/
     ~/.oh-my-zsh/custom/themes/spaceship.zsh-theme: oh-my-zsh-custom/themes/spaceship-prompt/spaceship.zsh-theme
 
 
