@@ -1,2 +1,4 @@
 *.swp
 nvim/plugged
+tmux/plugins
+!tmux/plugins/tpm
