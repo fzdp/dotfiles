@@ -15,3 +15,5 @@
 
 # tmux
 * tmux.conf inspired by https://github.com/samoshkin/tmux-config/blob/master/tmux/tmux.conf
+* Run `prefix + I` to fetch plugin(Note: plugins except tpm are git ignored)
+* keep font and Non-ASCII font same font size when using iTerm2
