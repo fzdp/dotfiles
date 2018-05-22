@@ -19,7 +19,7 @@ export NVM_DIR=$(realpath "$HOME/.nvm")
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 # anacoda
-export PATH="~/anaconda3/bin:$PATH"
+export PATH="$HOME/anaconda3/bin:$PATH"
 
 # alias
 alias h=cheat
