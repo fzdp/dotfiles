@@ -18,6 +18,9 @@ export NVM_DIR=$(realpath "$HOME/.nvm")
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
+# anacoda
+export PATH="~/anaconda3/bin:$PATH"
+
 # alias
 alias h=cheat
 alias vi=nvim
