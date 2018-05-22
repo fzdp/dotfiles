@@ -24,3 +24,4 @@ export PATH="$HOME/anaconda3/bin:$PATH"
 # alias
 alias h=cheat
 alias vi=nvim
+alias be="bundle exec"
