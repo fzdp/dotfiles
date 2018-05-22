@@ -1,3 +1,7 @@
+# install
+* `git clone --recurisve git@github.com:fzdp/dotfiles.git`
+* run `./install`
+
 # neovim
 * install latest neovim
 * Run `CheckHealth`
