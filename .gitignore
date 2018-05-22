@@ -2,3 +2,4 @@
 nvim/plugged
 tmux/plugins
 !tmux/plugins/tpm
+oh-my-zsh-custom/themes/spaceship.zsh-theme

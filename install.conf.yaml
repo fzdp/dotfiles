@@ -21,7 +21,6 @@
     ~/.tmux: tmux/
     ~/.oh-my-zsh/custom/themes/spaceship.zsh-theme: oh-my-zsh-custom/themes/spaceship-prompt/spaceship.zsh-theme
 
-
 - shell:
   -
     command: defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/.iterm2-settings"
