@@ -21,3 +21,16 @@
 * tmux.conf inspired by https://github.com/samoshkin/tmux-config/blob/master/tmux/tmux.conf
 * Run `prefix + I` to fetch plugin(Note: plugins except tpm are git ignored)
 * keep font and Non-ASCII font same font size when using iTerm2
+
+# nvm
+* Remove system installed `node` and `npm`
+* if you see error like below when starting tmux
+> nvm is not compatible with the npm config "prefix" option: currently set to "/usr/local"
+> Run nvm use --delete-prefix v9.2.0 --silent to unset it.
+
+Consider following solution:
+```sh
+brew uninstall node
+brew prune
+sudo rm -rf /usr/local/{lib/node{,/.npm,_modules},bin,share/man}/{npm*,node*,man1/node*}
+```
