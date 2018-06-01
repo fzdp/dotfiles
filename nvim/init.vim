@@ -10,6 +10,7 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'Raimondi/delimitMate'
 Plug 'mattn/emmet-vim'
 Plug 'dracula/vim'
+Plug 'posva/vim-vue'
 
 call plug#end()
 
@@ -28,7 +29,7 @@ set encoding=utf-8
 set termguicolors
 syntax on
 syntax enable
-colorscheme dracula
+" colorscheme dracula
 set background=dark
 map <Leader>bg :let &background = ( &background == "dark"? "light" : "dark" )<CR>
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
