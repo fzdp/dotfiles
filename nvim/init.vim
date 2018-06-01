@@ -10,6 +10,7 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'Raimondi/delimitMate'
 Plug 'mattn/emmet-vim'
 Plug 'dracula/vim'
+Plug 'jacoborus/tender.vim'
 Plug 'posva/vim-vue'
 
 call plug#end()
@@ -29,8 +30,8 @@ set encoding=utf-8
 set termguicolors
 syntax on
 syntax enable
-" colorscheme dracula
 set background=dark
+colorscheme tender
 map <Leader>bg :let &background = ( &background == "dark"? "light" : "dark" )<CR>
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 set hidden
@@ -87,6 +88,7 @@ let g:deoplete#enable_at_startup = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#show_splits = 1
 let g:airline#extensions#tabline#show_buffers = 1
+let g:airline_theme = 'tender'
 
 " term
 tnoremap jj <C-\><C-n>
