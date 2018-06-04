@@ -12,6 +12,7 @@ Plug 'mattn/emmet-vim'
 Plug 'dracula/vim'
 Plug 'jacoborus/tender.vim'
 Plug 'posva/vim-vue'
+Plug 'tomtom/tcomment_vim'
 
 call plug#end()
 
