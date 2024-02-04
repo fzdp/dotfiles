@@ -1,0 +1,4 @@
+set clipboard+=ideaput
+nmap <silent> <S-j> :bn<CR>
+nmap <silent> <S-k> :bp<CR>
+source ~/.vimrc
